@@ -2,7 +2,7 @@
     place-self: center;
     padding: 50px;
     border-radius: 20px;
-    background-image: linear-gradient(to right, rgb(69, 78, 247) , rgb(83, 243, 139)) ;
+    background-color: rgb(100, 187, 253);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,18 +15,63 @@
 
 .search-bar input{
     height: 50px;
-    font-weight: 500;
+    font-weight: 300;
     border-radius: 40px;
     border: none;
     outline: none;
     padding-left: 25px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 25px;
-    background-image: linear-gradient(to bottom, rgb(255, 157, 0), rgb(255, 102, 0));
+    background-color: white;
 }
 
 .search-bar img{
-    width: 70px;
-    padding: 10px;
+    width: 50px;
+    padding: 12px;
+    margin-left: 15px;
     cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.weather-icon{
+    width: 150px;
+    margin: 30px 0px;
+}
+
+.temperature{
+    color: black;
+    line-height: 1;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.location{
+    color: black;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.weather-data{
+    width: 100%;
+    color: black;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.weather-data .col{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    font-size: 22px;
+}
+
+.weather-data .col span{
+    display: block;
+    font-size: 16px;
+}
+
+.weather-data .col img{
+    width: 60px;
 }
