@@ -1,6 +1,6 @@
 .weather{
     place-self: center;
-    padding: 40px;
+    padding: 50px;
     border-radius: 20px;
     background-image: linear-gradient(to right, rgb(69, 78, 247) , rgb(83, 243, 139)) ;
     display: flex;
