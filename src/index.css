@@ -9,6 +9,9 @@
 
 .app{
   display: grid;
-  background: rgb(73, 118, 145);
-  min-height: 100vh;  
+  background-image: url(src/assets/back.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
 }
